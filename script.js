@@ -72,8 +72,8 @@ const gameOver = () => {
 
   // show result modal
   resultModal.innerHTML = "";
-  resultModal.classList.toggle("hidden");
-  modalBackground.classList.toggle("hidden");
+  resultModal.classList.remove("hidden");
+  modalBackground.classList.remove("hidden");
   // clear user text
   display.innerHTML = "";
   // make it inactive
@@ -108,7 +108,7 @@ const start = () => {
   countdownOverlay.style.display = "flex";
 
   const startCountdown = setInterval(() => {
-    countdownOverlay.innerHTML = '<h1>${count}</h1>';
+    countdownOverlay.innerHTML = `<h1>${count}</h1>`;
 
     // finished timer
     if (count == 0) {
