@@ -13,10 +13,47 @@
 </head>
 
 <body>
+    <header id="heading" class="">
+        <div>
+            <h1>Welcome To My Blog Site</h1>
+        </div>
+    </header>
+    <main>
+        <section id="articles" class="box-container">
+            <div>
+                <h2># Local Storage Vs. Session Storage :</h2>
+            </div>
+            <div>
+                <p>
+                    <b>Local Storage:</b> Unlike sessionStorage localStorage continues
+                    to store data after the browser is closed. It means that data stored
+                    in localStorage does not expire.
+                </p> <br>
+                <p>
+                    <b>Session Storage:</b> The sessionStorage object stores data only
+                    for a session. It means that the data stored in the sessionStorage
+                    will be deleted when the browser is closed.
+                </p> <br><br>
+            </div>
+            <div>
+                <h2># Global Scope Vs. Block Scope :</h2>
+            </div>
+            <div>
+                <p>
+                    <b>Global Scope:</b> If a variable is declared outside all functions
+                    or curly braces ({}), it is said to be defined in the global scope.
+                    Once you've declared a global variable, you can use that variable
+                    anywhere in your code, even in functions.
+                </p><br>
+                <p>
+                    <b>Block Scope:</b> When you declare a variable with const or let
+                    within a curly brace ({}), you can access this variable only within
+                    that curly brace.
+                </p><br><br>
+            </div>
+        </section>
 
-
-
-
+    </main>
     <script src="./history.js"></script>
     <script src="./script.js"></script>
 </body>

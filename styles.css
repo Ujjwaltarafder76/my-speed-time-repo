@@ -209,3 +209,19 @@ button {
   font-size: 20px;
 
 }
+
+#heading {
+  color: powderblue;
+  text-align: center;
+}
+
+#articles {
+  color: mediumaquamarine;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+#articles p {
+  color: aliceblue;
+  font-size: 20px;
+}
